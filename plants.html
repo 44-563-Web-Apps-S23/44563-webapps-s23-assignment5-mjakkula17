@@ -14,6 +14,34 @@
 </head>
 <body>
 <h1>Plants by Mounika Jakkula</h1>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="basic.html">Intresting Plants</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+        </button>
+        <button type="button" class="btn btn-primary navbar-toggler" data-bs-toggle="dropdown" aria-expanded="false">
+            Overflow
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="basic.html">Basic Bootstrap</a>
+            <a class="dropdown-item" href="advanced.html">Advanced Bootstrap</a>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-Scroll">
+        <ul class="navbar-nav mr-auto" aria-labelledby="navbarScrollingDropdown">
+            <li class="nav-link">
+                <a class="nav-link active" aris-current="page" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link active" aria-current="page" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <div class="container">
     <div class="row">
         <div class="col-sm-2">J</div>
@@ -44,8 +72,10 @@
         <img src="Aloevera.png" alt="Aloevera plant" class="img-thumbnail" width="200" height="100">
         <img src="Kiwi plant.png" alt="Kiwi plant" class="img-thumbnail" width="200" height="100">
     </div>
-    <table class="table table-bordered border-primary thead-dark table-striped table-hover table-sm table-dark">
-        <caption>Letter, Plant, Mountain and Lake</caption>
+
+    
+    <table class="table table-bordered border-primary thead-dark table-striped table-hover table-sm table-dark table-padding">
+        <caption>Table with Plants, Mountains and Lakes</caption>
         <thead>
             <tr class="table-dark">
                 <th scope="col">Letter</th>
@@ -93,6 +123,17 @@
             </tr>
         </tbody>
     </table>
+    <label>BUTTON</label>
+    <div class="container">
+    <button type="button" class="btn btn-sm">J</button>
+    <button type="button" class="btn btn-sm">A</button>
+    <button type="button" class="btn btn-sm">K</button>
+    <button type="button" class="btn btn-sm">K</button>
+    <button type="button" class="btn btn-sm">U</button>
+    <button type="button" class="btn btn-sm">L</button>
+    </div>
+    <br>
+    <label>BUTTON GROUP</label><br>
     <div class="btn-toolbar">
         <div class="btn-group" roles="Success" aria-label="Success Category">
             <button type="button" class="btn btn-success">J</button>
@@ -107,6 +148,58 @@
             <button type="button" class="btn btn-danger">L</button>
         </div>
     </div>
+    <br>
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="basic.html">Basic Bootstrap</a>
+            <a class="dropdown-item" href="advanced.html">Advanced Bootstrap</a>
+        </div>
+    </div>
+    <br>
+    <form>
+        <div class="form-group">
+            <label form="form-label">Email Address</label>
+            <input type="email" class="form-control">
+            <div od="emailHelp" class="form-text">We will never share your email with anyone else</div>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label" for="exampleCheck1">sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">submit</button>
+    </form>
+    <br>
+    <h5>BONUS</h5>
+    <br>
+    <div class="card" style="width: 18rem;">
+        <img src="jasmine.png" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">JASMINE</h5>
+            <p class="card-text">Jasmine (taxonomic name: Jasminum) is a genus of shrubs and vines in the olive family (Oleaceae). It contains around 200 species native to tropical and warm temperate regions of Eurasia, Africa, and Oceania. Jasmines are widely cultivated for the characteristic fragrance of their flowers.</p>
+            <a href="https://en.wikipedia.org/wiki/Jasmine" class="btn btn-primary">Jasmine wikipedia</a>
+        </div>
+    </div>
+    <br>
+    <div class="card" style="width: 18rem;">
+        <img src="Aloevera.png" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Aloevera</h5>
+            <p class="card-text">Aloe vera is a succulent plant species of the genus Aloe. It is widely distributed, and is considered an invasive species in many world regions.</p>
+            <a href="https://en.wikipedia.org/wiki/Aloe_vera" class="btn btn-primary">Aloevera wikipedia</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="Kiwi plant.png" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Kiwi Plant</h5>
+            <p class="card-text">Kiwifruit (often shortened to kiwi in North American, British and continental European English) or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</p>
+            <a href="https://en.wikipedia.org/wiki/Kiwifruit" class="btn btn-primary">Kiwi plant wikipedia</a>
+        </div>
+    </div>
+
 </div>
 </body>
 </html>
